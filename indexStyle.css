@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #000;
+    color: #eee;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.border {
+    background: linear-gradient(45deg, #ff8c00, #ff0080, #00f0ff);
+    padding: 5px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 900px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #222;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 4px solid #ff0080;
+}
+
+.text-section {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ff8c00;
+}
+
+.bio {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #ccc;
+    text-align: justify;
+} 
+
+#sub-title {
+    text-decoration: underline;
+}
+
+#sub-list{
+    line-height: 1.5;
+}
+
+#button {
+    background-color: #0f6521;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, opacity 0.3s;
+    font-family: cursive;
+}
+
+#button:hover {
+    opacity: 0.6; /* Makes the button slightly transparent */
+    background-color: red;
+    cursor:all-scroll;
+}
